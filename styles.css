@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #479030;
+  background: linear-gradient(145deg,rgba(71, 144, 48, 1) 0%, rgba(36, 109, 95, 1) 50%, rgba(36, 109, 95, 1) 100%);
+  font-family: 'Story Script', serif;
+}
