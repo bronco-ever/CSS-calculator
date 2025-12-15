@@ -18,7 +18,7 @@ body {
 
 .container {
   height: 500px;
-  width: 350px;
+  width: 380px;
   padding: 10px;
 }
 
@@ -33,6 +33,13 @@ h1 {
 .display {
   background-color: #212121;
   color: #fff;
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+form {
+  font-size: 0;
 }
 
 input {
@@ -53,6 +60,7 @@ input {
   cursor: pointer;
   background: #0E5144;
   border: none;
+  margin: 5px;
 }
 
 .btn:hover, .equal:hover {
@@ -66,5 +74,5 @@ input {
 }
 
 .equal {
-  width: 163px;
+  width: 170px;
 }
